@@ -13,10 +13,12 @@
 	$INSERT I_F.ACCOUNT
 	$INSERT I_F.TAX
 	$INSERT I_F.EB.CONTRACT.BALANCES
+	$INSERT I_F.EB.CONTRACT.BALANCES
 	$INSERT I_F.TSA.SERVICE
 	$INSERT I_F.BAPA.PARAM.NOSTRO.SWIFT
 	
-
+* agregamos un cambio al archivo y duardamos el archivo
+* para poder realizar la prueba con git 
 *-----------------------------------------------------------------------------
     GOSUB INICIO ;*Intialise
 	GOSUB P.SELECT 
